@@ -7,7 +7,7 @@ const IngriedPicker = ({ options, value, handleAddition, handleChange }) => {
     <div className='picker-wrapper'>
       <Dropdown
         options={options}
-        placeholder='Choose Languages'
+        placeholder='Choose ingredients'
         search
         selection
         multiple

@@ -1,5 +1,5 @@
 import React from "react";
-import IngriedPicker from "./IngriedPicker";
+import IngredientsPicker from "./IngredientsPicker";
 import LoadingButton from "./LoadingButton";
 import SearchButton from "./SearchButton";
 import PropTypes from "prop-types";
@@ -14,7 +14,7 @@ const Search = ({
 }) => {
   return (
     <div className='container'>
-      <IngriedPicker
+      <IngredientsPicker
         value={currentIngredients}
         handleAddition={handleAddition}
         handleChange={handleChange}
